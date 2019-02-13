@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="false" scanPeriod="60 seconds"
 	debug="false">
-	<property name="LOG_HOME" value="/kj/btrace/logs" />
-	<property name="appName" value="monitor"></property>
+	<property name="LOG_HOME" value="${user.home}/kj/logs/btrace" />
+	<property name="appName" value="btrace-monitor"></property>
 	<appender name="stdout"
 		class="ch.qos.logback.core.ConsoleAppender">
 		<Encoding>UTF-8</Encoding>
